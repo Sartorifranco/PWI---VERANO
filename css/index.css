@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    background-color: rgb(94, 121, 69);
+    color: white;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    text-transform:uppercase;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(55, 77, 117);
+    color: white;
+    width: 85vw;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul{
+    text-align: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: blue;
+}
+
+#mainContent{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portada{
+    width: 78%;
+    background-color: rgb(169, 187, 169);
+    padding: 1.6em;
+    box-sizing: border-box;
+}
+
+.destacado, .default{
+    background-color: white;
+    padding: 0.7em;
+    padding-right: 1em;
+}
+
+.default{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+
+#formcontacto{
+    padding: 1.2em;
+    background-color: rgb(120, 151, 120);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#formcontacto input, #formcontacto select, #formcontacto textarea{
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formcontacto label{
+    margin: 10px;
+}
+
+#formcontacto input[type="submit"]:hover{
+    background-color: blue;
+    color: white;
+}
+
+#formcontacto input[type="submit"]{
+    width: 50%;
+}
+
+#formcontacto input:focus{
+    background-color: aliceblue;
+}
+
+#formcontacto input:invalid{
+    border: red 3px solid;
+}
+
+#formcontacto input:valid{
+    border: 3px solid green;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(178, 178, 233);
+    color: white;
+    text-align: center;
+    padding: 17px;
+    font-size: 14px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
